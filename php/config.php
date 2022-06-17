@@ -1,8 +1,8 @@
 <?php
   $hostname = "localhost";
-  $username = "id19092254_happychatomiyadb";
-  $password = "x(ZC0[MDc*68|F*l";
-  $dbname = "id19092254_happychat";
+  $username = "";
+  $password = "";
+  $dbname = "";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   if(!$conn){
